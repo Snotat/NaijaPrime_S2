@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.analytics-card {
+    @apply flex-1 bg-neutral-800 rounded-lg p-3
+}
+
+.upload-form>input, .upload-form>label, .upload-form>select {
+    @apply bg-black border rounded-md p-3 outline-none
+}
